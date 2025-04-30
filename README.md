@@ -13,4 +13,16 @@ This project showcases an end-to-end data engineering pipeline designed to inges
 2) Glue Data Catalog: A central metadata repository containing schema information for the data.
 * Amazon Athena: An interactive query service that enables querying data directly in Amazon S3 using standard SQL.
 
+# Setup 
+refer to command_kafka.txt
+* Steps:
+1) Install Kafka and JDK
+2) Setup EC2 machine on AWS
+3) Start Kafka Zookeeper
+4) Start Kafka Server
+5) Create a topic
+6) Start Kafka Producer : To send real time simulated data to the consumer machine
+7) Start KAfka Consumer : To receive data 
+8) View real time data on python command line
+
 
